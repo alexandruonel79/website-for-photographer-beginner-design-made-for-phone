@@ -1,0 +1,83 @@
+@media only  screen and (min-width: 400px)
+{
+    body{
+        background-image: url('hector-fundal.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #logo{
+        width: 30%;
+        height: 300px;
+        float: right;
+        float: top;
+    }
+    .dropbtn {
+        margin-top: 10%;
+        background-color: rgba(8, 37, 31, 0.438);
+        color: white;
+        padding: 10px 10px;
+        font-size: 140px;
+        border: none;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        font-size: 140px;
+        padding: 15px 15px;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 15px 12px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: rgba(31, 37, 37, 0.459);}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+      
+      footer .instagram-logo #insta img {
+          width: 20%;
+          height: 150px;
+          position: fixed;
+          right: 0px;
+        bottom: 0px;
+      }
+      footer .instagram-logo #fb img {
+        width: 15%;
+        height: 120px;
+        position: fixed;
+        right: 20%;
+      bottom: 0px;
+      margin-bottom: 1.5%;
+      filter: brightness(50%);
+    }
+    .chenar p{
+        position: fixed;
+        font-family: sans-serif;
+        font-size: 150px;
+        text-align: center;
+        margin-top: 96%;
+        border: 10px;
+        border-style: solid;
+        color: whitesmoke;
+        border-color: #2d8524;
+        padding: 0px;
+        transition: all 1s;
+    }
+}

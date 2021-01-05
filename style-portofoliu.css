@@ -1,0 +1,14 @@
+@media only screen and (min-width: 400px){
+body h1{
+    text-align: center;
+    padding: 15%;
+    font-weight: none;
+    font-family: sans-serif;
+    font-size: 80px;
+}
+body .poze tr td img{
+    margin-left: 30%;
+    position: relative;
+    margin-top: 10%;
+}
+}
